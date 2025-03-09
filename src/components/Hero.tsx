@@ -4,6 +4,7 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, PresentationControls, Float, ContactShadows, Environment, useGLTF } from '@react-three/drei';
 import { motion } from 'framer-motion';
 import { modelAnimations } from '@/utils/animations';
+import * as THREE from 'three';
 
 // Fallback component while 3D model loads
 const ModelLoading = () => (

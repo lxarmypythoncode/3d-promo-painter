@@ -5,6 +5,7 @@ import { OrbitControls, Stage, useGLTF } from '@react-three/drei';
 import { motion } from 'framer-motion';
 import { useScrollAnimation } from '@/utils/useScrollAnimation';
 import { modelAnimations, fadeIn, fadeInUp, staggerContainer } from '@/utils/animations';
+import * as THREE from 'three';
 
 interface ModelViewerProps {
   modelPath?: string;
